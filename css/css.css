@@ -1,0 +1,76 @@
+
+body{
+    margin:0 auto;
+    height: 100%;
+    font-family: Calibri, sans-serif;
+    background-color: #fffdfd;
+}
+header{
+    background-color: #003f91;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo img{
+    padding: 10px 20px 0px 20px;
+}
+.navbar{
+    overflow: hidden;
+    padding-right: 20px;
+}
+.navbar a{
+    float: right;
+    padding: 0px 20px 20px 0px;
+    color: #E5F4E3;
+    text-decoration: none;
+}
+.principal{
+    background-image: url(../img/principal.jpg);
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.botao{
+    padding: 250px 600px ;
+    
+}
+button{
+    background-color: #E5F4E3; 
+    color: rgb(41, 40, 40);
+    border: none;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    visibility:hidden;
+}
+.principal:hover + button{
+    visibility: visible;
+    transition-duration: 0.4s;
+}
+
+.texto{
+    padding: 20px 40px 20px 40px;
+}
+hr{
+    background-color: #F2542D;
+    height: 1px;
+    border: none;
+}
+p{
+    padding: 0px 20px 0px 20px;
+}
+.dados{
+    display: inline-block;
+    padding-left: 65px;
+}
+.tabela{
+    display: inline-block;
+}
+iframe{
+    padding: 10px 20px 10px 20px;
+}
+footer{
+    text-align: center;
+}
