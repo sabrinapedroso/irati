@@ -6,48 +6,30 @@ body{
     background-color: #fffdfd;
 }
 header{
-    background-color: #003f91;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #003f91;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
 }
 .logo img{
-    padding: 10px 20px 0px 20px;
+    padding: 20px 20px 20px 20px;
 }
 .navbar{
     overflow: hidden;
-    padding-right: 20px;
+    padding-right: 30px;
+    padding-top: 43px;
 }
 .navbar a{
     float: right;
-    padding: 0px 20px 20px 0px;
+    padding: 15px 20px 20px 0px;
     color: #E5F4E3;
     text-decoration: none;
 }
+
 .principal{
-    background-image: url(../img/principal.jpg);
-    min-height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.botao{
-    padding: 250px 600px ;
-    
-}
-button{
-    background-color: #E5F4E3; 
-    color: rgb(41, 40, 40);
-    border: none;
-    padding: 20px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    transition-duration: 0.4s;
-    visibility:hidden;
-}
-.principal:hover + button{
-    visibility: visible;
-    transition-duration: 0.4s;
+    padding: 300px 100px;
 }
 
 .texto{
@@ -73,4 +55,10 @@ iframe{
 }
 footer{
     text-align: center;
+}
+.fotos{
+    padding: 30px 50px 30px 60px;
+}
+.fotos img{
+    width: 300px;
 }
