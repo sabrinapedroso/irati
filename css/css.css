@@ -89,6 +89,10 @@ footer{
     padding: 20px;
 }
 
+audio{
+    padding: 20px;
+}
+
 @media screen {
     
 }
